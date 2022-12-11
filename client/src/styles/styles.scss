@@ -1,0 +1,23 @@
+// Estilos Generales
+@import './base/general';
+
+// Animacion del fondo
+@import './layouts/clouds';
+
+// Menu
+@import './layouts/menu';
+
+
+// Vistas
+@import './views/home';
+@import './views/game';
+@import './views/results';
+@import './views/stats';
+@import './views/about';
+@import './views/contact';
+@import './views/login';
+@import './views/register';
+
+// Componentes
+@import './views/userRegistered';
+@import './views/userLogged'

@@ -1,0 +1,52 @@
+.loginPage {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.loginPage h1{
+    text-align: center;
+}
+
+.loginPage form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loginPage form input[placeholder]{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #ffe6a8;
+}
+
+.loginPage input[type="submit"]{
+    width: 60px;
+    padding: 10px;
+    background-color: #fb8500;
+}
+
+.goToRegister {
+    margin-top:50px;
+    align-self: flex-end;
+}
+
+// Clouds
+.loginPage .cloud1 {
+    top: 50px;
+    left: 50px;
+}
+
+.loginPage .cloud2 {
+    top: 400px;
+    right: 50px;
+}
+
+.loginPage .cloud3 {
+    top: 500px;
+    left: 50px;
+}

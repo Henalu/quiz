@@ -1,0 +1,36 @@
+section.main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 600px;
+  }
+  
+  section.hideMain {
+    display: none;
+  }
+  
+  .buttonGoPlay {
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    background-color: #fb8500;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 180px;
+  }
+  
+  .buttonHereWeGo {
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    background-color: #ffb703;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 180px;
+  }
+  

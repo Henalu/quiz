@@ -1,0 +1,62 @@
+.menuBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+  }
+
+  .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #2a9d8f;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .buttonGoMenu {
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2a9d8f;
+    align-self: center;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .exitMenu {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2a9d8f;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  
+  .menu {
+    display: flex;
+    width: 70%;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-content: space-evenly;
+  }

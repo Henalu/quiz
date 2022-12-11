@@ -1,0 +1,22 @@
+.userRegistered {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.userRegistered article{
+    background-color: #ffe6a8;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.userRegistered h1, .userRegistered h2, .userRegistered h3, .userRegistered p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.userRegistered .login{
+text-align: center;
+}
