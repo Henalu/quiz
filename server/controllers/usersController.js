@@ -1,6 +1,6 @@
 const User = require('../models/Users')
 
-// Guardar un nuevo usuario
+// Guardar un nuevo usuario (para el registro)
 async function addUser(req, res) {
     try {
         const {
@@ -25,7 +25,7 @@ async function addUser(req, res) {
     }
 }
 
-// Buscar un Usuario
+// Buscar un Usuario (para el login)
 async function getUser(req, res) {
     try {
         const {
@@ -40,15 +40,7 @@ async function getUser(req, res) {
     }
 }
 
-// Buscar todos los usuarios
-async function getUsers(req, res) {
-    // Lean convierte a objetos planos de js, Exec indica que ejecute la consulta y retorna la promesa
-    const users = await User.find().lean().exec()
-    res.status(200).send({ users })
-}
-
 module.exports = {
     addUser,
-    getUsers,
     getUser
 }
